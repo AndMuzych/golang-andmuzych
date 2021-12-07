@@ -9,11 +9,11 @@ on:
       - main
 
 env:
-  REGISTRY: "registry.digitalocean.com/jewerly-shop"
-  IMAGE_NAME: "jewerly-api"
-  CONTAINER_NAME: "jewerly-api"
-  ENV_FILE_PATH: "./jewerly-shop/.env.prod"
-  LOGS_PATH: "/root/jewerly-shop/api/logs/prod"
+  REGISTRY: "registry.digitalocean.com/golang-andmuzych"
+  IMAGE_NAME: "golang-api"
+  CONTAINER_NAME: "golang-api"
+  ENV_FILE_PATH: "./golang-andmuzych/.env.prod"
+  LOGS_PATH: "/root/golang-andmuzych/api/logs/prod"
 
 jobs:
   test:
