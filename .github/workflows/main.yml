@@ -15,7 +15,6 @@ env:
   ENV_FILE_PATH: "./jewerly-shop/.env.prod"
   LOGS_PATH: "/root/jewerly-shop/api/logs/prod"
 
-on: push
 jobs:
   test:
     runs-on: ubuntu-latest
